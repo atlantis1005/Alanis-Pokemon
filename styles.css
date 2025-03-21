@@ -1,0 +1,80 @@
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Monospace;
+    font-size: 27px;
+}
+
+#subtitle {
+    text-align: center;
+    font-family: Monospace;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: Monospace;
+    padding: 20px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+
+    margin-bottom: 5px;
+
+
+}
+
+.button-1 {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 50%;
+    border: 1.75vmin solid black;
+    cursor: pointer;
+    background-image:
+        radial-gradient(white 20%, white 20%, black 20%, black 30%, transparent 30%, transparent), linear-gradient(red 46%, black 46%, black 54%, white 54%);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+#content-area {
+    display: flex;
+    min-height: 30vh;
+}
+
+#left-panel {
+    flex: 2;
+    background-color: #bdf2cb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-panel {
+    flex: 2;
+    background-color: #bddcf2;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#description {
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
