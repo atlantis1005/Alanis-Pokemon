@@ -51,5 +51,3 @@ function displayText(button) {
   container.innerHTML = '';
   container.appendChild(text)
 }
-
-
